@@ -6,6 +6,7 @@ Created on Jun 23, 2013
 import os as os
 import numpy as np
 import pandas as pd
+import projectpy as ppy
 
 GENE_POS = pd.read_csv('../Extra_Data/HGNC_chr_pos.txt')
 GENE_LIST_FILE = '../Extra_Data/HGNC_Genes'
